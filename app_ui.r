@@ -9,7 +9,7 @@ p("For this A5 Assignment, I decided to combine the gases of Co2, Methane, Flari
 
 Second_Page <- tabPanel(
   h4("Chart Page"), 
-  p("Explain This Page"),
+  p("This chart can be seen as one that explains the percentage of the different gases that emerged from within the dataset, and in order to get the chart to show up you need to click on whichever gas you would like to see. You can add up to four gases which will show the complete pie chart up to one hundred percent along with being able to remove them from that point in order to show three or less gases within the chart as well"),
   sidebarLayout(
     sidebarPanel(
       selectInput(
